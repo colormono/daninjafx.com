@@ -21,9 +21,10 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
 
 {
   image && (
-    <div>
+    <div class="relative group">
       <a href={getPostLink(post.Slug)} class="relative rounded overflow-hidden">
         <img src={image} alt="Featured image of the post" class="rounded object-cover w-full aspect-video" />
+        <span class="absolute bottom-0 left-0 px-3 py-2 w-full text-white bg-black/80 text-sm font-semibold transition-opacity opacity-0 group-hover:opacity-100">{post.Title}</span>
       </a>
     </div>
   )

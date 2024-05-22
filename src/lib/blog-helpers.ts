@@ -257,6 +257,13 @@ export const isYouTubeURL = (url: URL): boolean => {
   return false
 }
 
+export const isVimeoURL = (url: URL): boolean => {
+  if (['www.vimeo.com', 'vimeo.com'].includes(url.hostname)) {
+    return true
+  }
+  return false
+}
+
 // Supported URL
 //
 // - https://youtu.be/0zM3nApSvMg
