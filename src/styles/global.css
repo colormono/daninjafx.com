@@ -64,12 +64,7 @@
   body {
     @apply bg-background font-sans text-foreground antialiased transition-colors;
   }
-  h1,
-  h2,
-  h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
-  }
-
+  
   .hidden {
     display: none;
   }
