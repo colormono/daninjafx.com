@@ -6,12 +6,12 @@ export const config = {
   title: 'Daniel Rivas | Personal Portfolio',
   description: '3D Art and Motion Graphics',
   cover: {
-    alt: 'DaninjaFX Portfolio Cover',
+    alt: 'DaninjaFX Cover',
     url: '/images/cover.jpg'
   },
   logo: {
     alt: 'DaninjaFX',
-    url: '/daninjafx-logo.jpg'
+    url: '/images/logo.jpg'
   },
   social: {
     instagram: 'https://www.instagram.com/daninjafx/',
@@ -22,6 +22,6 @@ export const config = {
   og: {
     title: 'Daniel Rivas | Personal Portfolio',
     description: '3D Art and Motion Graphics',
-    url: 'https://daninjafx.com/images/social.jpg'
+    image: 'https://daninjafx.com/images/social.jpg'
   }
 }
